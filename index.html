@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Masoodah George</title>
     <link rel="stylesheet" href="/styles/styling.css">
 </head>
+
 <body>
     <div id="page">
         <div id="banner">
@@ -28,9 +30,9 @@
             <img src="https://i.postimg.cc/DwWNcJZF/swegga.jpg" alt="sidebar" id="sidebar-image">
         </div>
 
-        <div>
-        
-            <form name="orders">
+        <div id="main">
+
+            <form action="orders">
                 <table>
                     <caption>Product Summary</caption>
                     <tr>
@@ -78,18 +80,18 @@
                             </select>
                         </td>
                         <td id="price2">180.95</td>
-                        <td><input type="number" id="input2" value="0" min="0" ></td>
+                        <td><input type="number" id="input2" value="0" min="0"></td>
                         <td id="result2">0.00</td>
                     </tr>
                     <tr>
                         <td colspan="4">Click to confirm and process your order</td>
-                        <td><button type="button" id="button">Total Price</button></td>
+                        <td><button class="btn2" type="button" id="button" data-bs-toggle="Total" aria-expanded="false">Total Price</button></td>
                         <td id="result3">0.00</td>
                     </tr>
                 </table>
             </form>
         </div>
-        
+
 
         <div footer>
             <footer id="footer">
@@ -100,4 +102,5 @@
 
     <script src="/js/script.js"></script>
 </body>
+
 </html>
