@@ -1,40 +1,66 @@
 /* Examination number */
+/* Masoodah George */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 85%;
 	background-color: #4766B8;
-    margin: 0;
-	padding: 0; }
+	margin: 0;
+	padding: 0;
+}
 
 #page {
 	width: 710px;
 	background-color: white;
 	margin: 10px auto;
 	border: 2px solid black;
-	padding: 10px; }
+	padding: 10px;
+	max-height: max-content;
+
+}
 
 #banner {
-    margin-bottom: 1em;
-	height: 70px }
+	margin-bottom: 1em;
+	height: 70px
+}
+
+#banner-image {
+    height: 85px;
+    width: 300px;
+	margin-left: 150px;
+}
 
 #navigation {
 	margin-top: 1em;
 	height: 45px;
-	background-color: white; }
-	
+	background-color: white;
+}
+
+#nav-image {
+    height: 56px;
+    width: 560px;
+	margin-left: 150px;
+}
+
 #sidebar {
 	width: 150px;
 	height: 370px;
 	background-color: white;
 	margin-bottom: .7em;
-	float: left; }
+	float: left;
+}
+
+#sidebar-image {
+    height: 350px;
+    width: 150px;
+}
 
 .copyright {
-    font-size: 90%;
-    text-align: right; 
-	margin: 0; }
-	
+	font-size: 90%;
+	text-align: right;
+	margin: 0;
+}
+
 /* the styles for the table*/
 
 caption {
@@ -43,14 +69,27 @@ caption {
 	margin-top: 25px;
 	margin-bottom: 10px;
 	font-size: 150%;
-	color: #4766B8; }
+	color: #4766B8;
+}
 
 td, th {
 	border: 1px solid black;
 	padding: .2em .7em;
-	font-size: 95%; }	
-	
+	font-size: 95%;
+}
+
+table {
+	border: 1px solid black;
+	border-collapse:collapse;
+}
+
 .alignRight {
 	text-align: right;
 }
 
+footer {
+    margin-top: .5ems;
+    border-top: 2px solid grey;
+    padding-top: .7ems;
+    clear: left;
+}
